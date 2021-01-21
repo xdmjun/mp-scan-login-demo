@@ -1,0 +1,68 @@
+{
+  "name": "mp-scan-login-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "report": "vue-cli-service build --report"
+  },
+  "dependencies": {
+    "axios": "0.18.1",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.13.0",
+    "file-saver": "^2.0.2",
+    "good-storage": "^1.1.1",
+    "js-cookie": "^2.2.0",
+    "lib-flexible": "^0.3.2",
+    "normalize.css": "^7.0.0",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^2.4.0",
+    "qrcodejs2": "0.0.2",
+    "qs": "^6.9.3",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "script-loader": "0.7.2",
+    "vconsole": "^3.3.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-standard": "^5.1.0",
+    "babel-eslint": "^10.0.3",
+    "compression-webpack-plugin": "^3.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

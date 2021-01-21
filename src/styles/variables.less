@@ -1,0 +1,127 @@
+@menuText:#fff;
+@menuActiveText:#649CEE;
+@subMenuActiveText:#649CEE;
+
+@menuBg:#182B5C;
+@menuHover:#274179;
+
+@subMenuBg:#182B5C;
+@subMenuHover:#274179;
+
+@sideBarWidth: 300px;
+
+@gMenuText: #9b9b9b;
+@gMenuActiveText: #444;
+@gSubMenuActiveText: #444;
+
+@gMenuBg: #fff;
+@gMenuHover: #fff;
+
+@gSubMenuBg: #fff;
+@gSubMenuHover: #fff;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: @menuText;
+  menuActiveText: @menuActiveText;
+  subMenuActiveText: @subMenuActiveText;
+  menuBg: @menuBg;
+  menuHover: @menuHover;
+  subMenuBg: @subMenuBg;
+  subMenuHover: @subMenuHover;
+  sideBarWidth: @sideBarWidth;
+  gMenuText: @gMenuText;
+  gMenuActiveText: @gMenuActiveText;
+  gSubMenuActiveText: @gSubMenuActiveText;
+  gMenuBg: @gMenuBg;
+  gMenuHover: @gMenuHover;
+  gSubMenuBg: @gSubMenuBg;
+  gSubMenuHover: @gSubMenuHover;
+}
+
+ol, ul {
+  list-style: none;
+} 
+
+.inline-block { display:inline-block !important; }
+
+.fz(@px) { font-size:@px !important;}
+.mr(@px) { margin-right:@px !important;}
+.ml(@px) { margin-left:@px !important;}
+.mt(@px) { margin-top:@px !important;}
+.mb(@px) { margin-bottom:@px !important;}
+.pr(@px) { padding-right:@px !important;}
+.pl(@px) { padding-left:@px !important;}
+.pt(@px) { padding-top:@px !important;}
+.pb(@px) { padding-bottom:@px !important;}
+
+.clearfix {
+  &:after {
+    display: block;
+    height: 0;
+    clear: both;
+    content: '\20';
+  }
+}
+.fl { float: left; }
+.fr { float: right; }
+.tal { text-align: left !important; }
+.tac { text-align: center !important; }
+.tar { text-align: right !important; }
+.vat { vertical-align: top; }
+.vam { vertical-align: middle; }
+.br(@px) { border-radius:@px !important;  }
+.white-box{
+  background:#ffffff;
+  border-radius: 6px;
+  padding:20px;
+}
+.mt5 { .mt(5px); }
+.mt10 { .mt(10px); }
+.mt15 { .mt(15px); }
+.mt20 { .mt(20px); }
+.mt25 { .mt(25px); }
+
+.ml5 { .ml(5px); }
+.ml10 { .ml(10px); }
+.ml15 { .ml(15px); }
+.ml20 { .ml(20px); }
+.ml25 { .ml(25px); }
+.ml30 { .ml(30px); }
+
+.mr5 { .mr(5px); }
+.mr10 { .mr(10px); }
+.mr15 { .mr(15px); }
+.mr20 { .mr(20px); }
+.mr25 { .mr(25px); }
+
+.mb5 { .mb(5px); }
+.mb10 { .mb(10px); }
+.mb15 { .mb(15px); }
+.mb20 { .mb(20px); }
+.mb25 { .mb(25px); }
+
+.pt5 { .pt(5px); }
+.pt10 { .pt(10px); }
+.pt15 { .pt(15px); }
+.pt20 { .pt(20px); }
+.pt25 { .pt(25px); }
+
+.pl5 { .pl(5px); }
+.pl10 { .pl(10px); }
+.pl15 { .pl(15px); }
+.pl20 { .pl(20px); }
+.pl25 { .pl(25px); }
+
+.pr5 { .pr(5px); }
+.pr10 { .pr(10px); }
+.pr15 { .pr(15px); }
+.pr20 { .pr(20px); }
+.pr25 { .pr(25px); }
+
+.pb5 { .pb(5px); }
+.pb10 { .pb(10px); }
+.pb15 { .pb(15px); }
+.pb20 { .pb(20px); }
+.pb25 { .pb(25px); }
